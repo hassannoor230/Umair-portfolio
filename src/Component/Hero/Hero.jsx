@@ -1,5 +1,6 @@
 import { Github, Linkedin, X, Mail } from 'lucide-react';
 import './Hero.css';
+import img from '../../assets/ChatGPT Image Feb 23, 2026, 03_36_53 PM.png';
 
 export function Hero() {
   return (
@@ -51,7 +52,10 @@ export function Hero() {
         <div className="hero-image-wrapper">
           <div className="hero-profile">
             <img
-              src="/assets/ChatGPT Image Feb 23, 2026, 03_36_53 PM.png"
+              src={img}
+              alt="Professional Developer"
+              className="hero-profile-image"
+            />
           </div>
         </div>
 

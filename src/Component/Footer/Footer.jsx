@@ -84,9 +84,9 @@ export function Footer() {
           <div>
             <h4 className="footer-section-title">Contact</h4>
             <ul className="footer-links">
-              <li><a href="mailto:contact@devpro.com" className="footer-link">contact@devpro.com</a></li>
-              <li><a href="tel:+1234567890" className="footer-link">+1 (234) 567-890</a></li>
-              <li><a href="#contact" className="footer-link">San Francisco, CA</a></li>
+              <li><a href="mailto:contact@devpro.com" className="footer-link">umair@gmail.com</a></li>
+              <li><a href="tel:+1234567890" className="footer-link">+92 300 6406480</a></li>
+              <li><a href="#contact" className="footer-link">Gujranwala</a></li>
               <li><a href="#contact" className="footer-link">Get in Touch</a></li>
             </ul>
           </div>

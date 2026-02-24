@@ -70,7 +70,7 @@ export function Contact() {
               </div>
               <div className="contact-card-content">
                 <a href="tel:+1234567890" className="contact-card-link">
-                  =92 300 6406480
+                  +92 300 6406480
                 </a>
                 <br />
                 Mon - Fri, 9:00 AM - 6:00 PM EST

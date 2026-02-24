@@ -51,10 +51,7 @@ export function Hero() {
         <div className="hero-image-wrapper">
           <div className="hero-profile">
             <img
-              src="/src/assets/ChatGPT Image Feb 23, 2026, 03_36_53 PM.png"
-              alt="Professional Developer"
-              className="hero-profile-image"
-            />
+              src="/assets/ChatGPT Image Feb 23, 2026, 03_36_53 PM.png"
           </div>
         </div>
 

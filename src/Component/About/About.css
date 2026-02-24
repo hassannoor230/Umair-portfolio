@@ -310,22 +310,115 @@
   font-size: 0.875rem;
 }
 
+@media (max-width: 1024px) {
+  .about {
+    padding: 5rem 3rem;
+  }
+
+  .section-title {
+    font-size: 2.2rem;
+  }
+}
+
 @media (max-width: 768px) {
+  .about {
+    padding: 4rem 2rem;
+  }
+
   .section-title {
     font-size: 2rem;
   }
 
+  .section-subtitle {
+    font-size: 0.95rem;
+  }
+
+  .about-bio {
+    padding: 2rem;
+    font-size: 0.95rem;
+  }
+
+  .about-section-title {
+    font-size: 1.5rem;
+  }
+
   .experience-timeline {
     padding-left: 2rem;
+    margin-bottom: 3rem;
+  }
+
+  .experience-item {
+    padding: 1.5rem;
+    margin-bottom: 2rem;
   }
 
   .experience-item::before {
     left: -2.5rem;
   }
 
+  .experience-header {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .experience-role {
+    font-size: 1.25rem;
+  }
+
   .skills-grid,
   .certifications-grid {
     grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .skill-item {
+    padding: 1.25rem;
+  }
+
+  .certification-card {
+    padding: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .about {
+    padding: 3rem 1.5rem;
+  }
+
+  .section-title {
+    font-size: 1.7rem;
+  }
+
+  .about-section-title {
+    font-size: 1.25rem;
+  }
+
+  .experience-timeline {
+    padding-left: 1.5rem;
+  }
+
+  .experience-item::before {
+    left: -2rem;
+  }
+
+  .experience-role {
+    font-size: 1.1rem;
+  }
+
+  .experience-company {
+    font-size: 1rem;
+  }
+
+  .skill-name {
+    font-size: 1rem;
+  }
+
+  .certification-icon {
+    font-size: 2.5rem;
+  }
+
+  .certification-name {
+    font-size: 1rem;
   }
 }
 .certification-icon {

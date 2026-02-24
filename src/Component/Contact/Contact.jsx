@@ -52,11 +52,11 @@ export function Contact() {
               </div>
               <div className="contact-card-content">
                 <a href="mailto:contact@devpro.com" className="contact-card-link">
-                  contact@devpro.com
+                  umair@gmail.com
                 </a>
                 <br />
                 <a href="mailto:projects@devpro.com" className="contact-card-link">
-                  projects@devpro.com
+                  Umair@gmail.com
                 </a>
               </div>
             </div>
@@ -70,7 +70,7 @@ export function Contact() {
               </div>
               <div className="contact-card-content">
                 <a href="tel:+1234567890" className="contact-card-link">
-                  +1 (234) 567-890
+                  =92 300 6406480
                 </a>
                 <br />
                 Mon - Fri, 9:00 AM - 6:00 PM EST
@@ -85,7 +85,7 @@ export function Contact() {
                 <h3 className="contact-card-title">Location</h3>
               </div>
               <div className="contact-card-content">
-                San Francisco, CA
+               Gujranwala
                 <br />
                 Available for remote work worldwide
               </div>

@@ -35,6 +35,24 @@ h1 {
   line-height: 1.1;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
 button {
   border-radius: 8px;
   border: 1px solid transparent;

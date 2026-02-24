@@ -151,28 +151,134 @@
   box-shadow: 0 10px 30px rgba(168, 85, 247, 0.6);
 }
 
+@media (max-width: 1024px) {
+  .footer {
+    padding: 3rem 3rem 1rem;
+  }
+
+  .footer-content {
+    gap: 2.5rem;
+    margin-bottom: 2.5rem;
+  }
+}
+
 @media (max-width: 968px) {
+  .footer {
+    padding: 2.5rem 2rem 1rem;
+  }
+
   .footer-content {
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
+    margin-bottom: 2rem;
   }
 
   .footer-brand {
     grid-column: 1 / -1;
   }
+
+  .footer-stats {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    padding: 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 2rem 2rem 1rem;
+  }
+
+  .footer-content {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .footer-logo {
+    font-size: 1.4rem;
+  }
+
+  .footer-section-title {
+    font-size: 1rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .footer-link {
+    font-size: 0.95rem;
+  }
+
+  .footer-stats {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 1.25rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .footer-stat-number {
+    font-size: 1.7rem;
+  }
+
+  .footer-stat-label {
+    font-size: 0.8rem;
+  }
 }
 
 @media (max-width: 640px) {
+  .footer {
+    padding: 1.5rem 1.5rem 1rem;
+  }
+
   .footer-content {
     grid-template-columns: 1fr;
+    gap: 1.25rem;
+    margin-bottom: 1.25rem;
   }
 
   .footer-bottom {
     flex-direction: column;
     text-align: center;
+    gap: 1rem;
   }
 
   .footer-stats {
     grid-template-columns: 1fr;
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  .footer-logo {
+    font-size: 1.2rem;
+  }
+
+  .footer-section-title {
+    font-size: 0.95rem;
+  }
+
+  .footer-link {
+    font-size: 0.9rem;
+  }
+
+  .footer-copyright {
+    font-size: 0.8rem;
+  }
+
+  .scroll-to-top {
+    width: 44px;
+    height: 44px;
+  }
+}
+
+@media (max-width: 360px) {
+  .footer {
+    padding: 1.25rem 1rem 0.75rem;
+  }
+
+  .footer-content {
+    gap: 1rem;
+  }
+
+  .footer-tagline {
+    font-size: 0.9rem;
+    line-height: 1.5;
   }
 }
